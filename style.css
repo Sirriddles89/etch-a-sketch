@@ -15,8 +15,5 @@ body {
     width: 60px;
     height: 60px;
     border: solid black 1px;
-}
-
-.gridBlock:hover {
-    background-color: red;
+    background-color: white;
 }
