@@ -1,19 +1,19 @@
-body {
-    display: flex;
-    justify-content: center;
-}
 
 .gridContainer {
-    width: 985px;
+    margin: 0 auto;
+    width: 960px;
     height: 960px;
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 0;
+    border: solid 1px;
+    
+    
 }
 
 .gridBlock {
-    width: 60px;
-    height: 60px;
+    
     border: solid black 1px;
     background-color: white;
+    box-sizing: border-box;
 }
