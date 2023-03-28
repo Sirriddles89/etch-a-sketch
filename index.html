@@ -9,16 +9,20 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Etch-A-Sketch! (Kinda)</h1>
-    </div>
-    <div class="gridContainer"></div>
     <div class="form">
         <form>
             <label for="squares">Enter dimensions:</label>
-            <input type="text" id="squares" name="squares">
-            <input type="submit">
+            <input type="text" id="squares" name="squares" placeholder="The maximum is 64">
+            <input class="submit" type="submit">
+            <button onclick="refresh()">Clear grid</button>
         </form>
+        
+    </div>
+    <div class="mainContainer">
+        <div class="header">
+            <h1>Etch-A-Sketch! (Kinda)</h1>
+        </div>
+        <div class="gridContainer"></div>
     </div>
     
 </body>

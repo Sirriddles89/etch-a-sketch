@@ -1,16 +1,29 @@
+body {
+    display: flex;    
+    background-color: #4980f718;
+    justify-content: center;
+    gap: 16px;
+}
 
 .header {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .gridContainer {
-    margin: 0 auto;
     width: 960px;
     height: 960px;
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 0;
-    border: solid 1px;
+    border: solid blue 3px;
     
     
 }
@@ -21,7 +34,31 @@
     box-sizing: border-box;
 }
 
-.form {
+form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
     text-align: center;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    border: solid 2px blue;
+    border-radius: 10px;
+    
+}
+
+.submit, button, #squares {
+    padding: 10px;
+    background-color: #4980f718;
+    border: solid 2px blue; 
+    border-radius: 7px;
+    color: crimson;
+    font-weight: 700   
 }
